@@ -22,11 +22,15 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
 # lista2.append(4) #append adiciona elemento a lista
 # print(lista2)
 
-while True:
-    add_item_na_lista = input("Adicione algo na lista: ")
-    lista3 = []
+# while True:
+#     add_item_na_lista = int(input("Adicione algo na lista: "))
+#     lista3 = [1,2,3]
 
-    lista3.append(add_item_na_lista)
+#     lista3.append(add_item_na_lista)
    
-    print(lista3)
-    lista3 +=1
+#     print(lista3)
+    
+lista = [1,2,3]
+
+lista.insert(0,2) #insert = (posição que vc quer inserir(indice), depois da virgula é o valor) nesse caso insere na posição 0 o valor 2
+print(lista)
