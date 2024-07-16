@@ -35,9 +35,16 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
 # lista.insert(0,2) insert = (posição que vc quer inserir(indice), depois da virgula é o valor) nesse caso insere na posição 0 o valor 2
 # print(lista)
 
-listaA = [1,2,3]
-listaB = [4,5,6]
+# listaA = [1,2,3]
+# listaB = [4,5,6]
 
-listaC = listaA + listaB
+# listaC = listaA + listaB
+# print(listaC)
 
-print(listaC)
+# listaD = listaA.extend(listaB)
+# print(listaD)
+
+lista = ['Leandro', 'leandro1', 'leandro2']
+
+for nome in lista:
+    print(nome)
