@@ -14,11 +14,14 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """
+
+
 palavra_secreta = 'televisao'
 letras_acertadas = ''
 numero_tentativas = 0
 
 while True:
+    
     letra_digitada = input("Digite uma letra: ")
     numero_tentativas += 1
 
@@ -42,3 +45,7 @@ while True:
         print("Voçê acertou!")
         print("A palavra secreta era: ", palavra_secreta)
         print("Número de tentativas: ", numero_tentativas)
+        letras_acertadas = ''
+        numero_tentativas = 0
+
+       
