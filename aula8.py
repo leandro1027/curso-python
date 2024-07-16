@@ -1,3 +1,1 @@
-print('ola')
-print('teste')
-set
+print("teste")
