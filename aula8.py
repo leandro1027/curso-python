@@ -30,7 +30,14 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
    
 #     print(lista3)
     
-lista = [1,2,3]
+# lista = [1,2,3]
 
-lista.insert(0,2) #insert = (posição que vc quer inserir(indice), depois da virgula é o valor) nesse caso insere na posição 0 o valor 2
-print(lista)
+# lista.insert(0,2) insert = (posição que vc quer inserir(indice), depois da virgula é o valor) nesse caso insere na posição 0 o valor 2
+# print(lista)
+
+listaA = [1,2,3]
+listaB = [4,5,6]
+
+listaC = listaA + listaB
+
+print(listaC)
