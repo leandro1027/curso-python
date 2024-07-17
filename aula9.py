@@ -11,7 +11,7 @@
 # for nome in nomes:
 #     print(nome)
 
-# para enumerar itens da tupla, usa-se enumerate()
+# para enumerar itens da tupla(ou iteraveis), usa-se enumerate()
 lista = ["leandro", "Balaban"]
 
 lista_enumerada = enumerate(lista)
